@@ -4,13 +4,6 @@
 <title>Page Title</title>
 <style>
 @font-face {
-    font-family: 'BebasNeue-Book';
-    src: url('fonts/BebasNeue-Book.woff2') format('woff2'),
-        url('fonts/BebasNeue-Book.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
     font-family: 'BebasNeue-Bold';
     src: url('fonts/BebasNeue-Bold.woff2') format('woff2'),
         url('fonts/BebasNeue-Bold.woff') format('woff');
@@ -19,8 +12,15 @@
 }
 @font-face {
     font-family: 'BebasNeueRegular';
-    src: url('fonts/BebasNeueRegular.woff2') format('woff2'),
-        url('fonts/BebasNeueRegular.woff') format('woff');
+    src: url('BebasNeueRegular.ttf') format('woff2'),
+        url('BebasNeueRegular.ttf') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'BebasNeue-Book';
+    src: url('fonts/BebasNeue-Book.woff2') format('woff2'),
+        url('fonts/BebasNeue-Book.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -36,6 +36,10 @@ h2 {
 }
 h3 {
   font-family: 'BebasNeue-Book';
+}
+h1, h2, h3 {
+  font-size: 30px;
+  font-weight: normal;
 }
 </style>
 </head>
